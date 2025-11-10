@@ -253,7 +253,7 @@ def demonroll(message):
 آتش زن 🔥
     """)
 @bot.message_handler(command=‘SafeRoll’)
-@bot.message_hanler(func=lambda m:m.text==‘نقش های مثبت’)
+@bot.message_handler(func=lambda m:m.text==‘نقش های مثبت’)
 def SafeRoll(message):
    bot.reply_to(m, “””
    hi
