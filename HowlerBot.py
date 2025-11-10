@@ -251,6 +251,11 @@ def demonroll(message):
 قاتل زنجیره ای 🔪
 منافق 👺
 آتش زن 🔥
-    
     """)
+@bot.message_handler(command=‘SafeRoll’)
+@bot.message_hanler(func=lambda m:m.text==‘نقش های مثبت’)
+def SafeRoll(message):
+   bot.reply_to(m, “””
+   hi
+   “””)
 bot.polling()
